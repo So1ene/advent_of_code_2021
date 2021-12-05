@@ -1,6 +1,6 @@
 # Advent of Code Day 5 - Part 1 Solution.
 
-# Represents a line segment
+# Represents a hydrothermal vent line
 class Line
   def initialize(x1, y1, x2, y2)
     @x1 = x1
