@@ -20,4 +20,4 @@ end
 
 
 print "Solution is: "
-puts fuel.floor
+puts fuel.to_i
