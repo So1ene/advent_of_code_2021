@@ -1,7 +1,6 @@
 # Advent of Code Day 7 - Part 1 Solution.
 
 def get_median(crabs)
-  return nil if crabs.empty?
   sorted = crabs.sort
   len = sorted.length
   (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
