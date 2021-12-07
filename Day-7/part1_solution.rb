@@ -7,11 +7,6 @@ def get_median(crabs)
   (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
 end
 
-def get_difference_from_median(number, median)
-  x, y = [number, median].minmax
-  y - x
-end
-
 file = File.open("puzzle_input.txt").read
 crabs = file.split(',')
 crabs.map!(&:to_i)
@@ -20,7 +15,8 @@ median = get_median(crabs)
 fuel = 0
 
 crabs.each do |crab|
-  fuel += get_difference_from_median(crab, median)
+  x, y = [crab, median].minmax
+  fuel += (y - x)
 end
 
 
