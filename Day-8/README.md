@@ -1,3 +1,3 @@
-## Advent of Code 2021 - Day 6 ##
+## Advent of Code 2021 - Day 8 ##
 
-https://adventofcode.com/2021/day/6
+https://adventofcode.com/2021/day/8
